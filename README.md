@@ -278,7 +278,9 @@ Contributions are welcome! Please read CONTRIBUTING.md for details.
 
 ## 📄 License
 
-This project is licensed under the MIT License - see LICENSE file for details.
+MIT License - Copyright (c) 2025 abel2800
+
+See [LICENSE](LICENSE) file for full details.
 
 ---
 
