@@ -280,17 +280,6 @@ Contributions are welcome! Please read CONTRIBUTING.md for details.
 
 This project is licensed under the MIT License - see LICENSE file for details.
 
-## 📞 Support
-
-For issues and questions:
-- GitHub Issues: [Project Issues](issues-url)
-- Email: support@tripethiopia.com
-- Telegram: @TripEthiopiaSupport
-
-## 👥 Team
-
-Developed with ❤️ for Ethiopian travelers
-
 ---
 
 **Made in Ethiopia 🇪🇹**
