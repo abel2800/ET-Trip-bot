@@ -1,0 +1,131 @@
+{
+  "welcome": "🇪🇹 Gara Bot Trip Ethiopia Baga Nagaan Dhuftan!\n\nGargaaraa imala kee kan balali'aa, hoteelaa fi deemuun filannoo kaffaltii Itoophiyaatiin si tajaajilu.\n\nTajaajila filadhu:",
+  "main_menu": {
+    "flights": "✈️ Balali'oota",
+    "hotels": "🏨 Hoteelota",
+    "tours": "🌍 Deemuun",
+    "bookings": "📑 Qabiyyee Koo",
+    "alerts": "💰 Of Eeggannoo Gatii",
+    "language": "🌐 Afaan",
+    "help": "❓ Gargaarsa"
+  },
+  "flights": {
+    "search_title": "✈️ Barbaadi Balali'aa",
+    "origin": "Magaalaa ka'umsa galchi (fakkeenyaaf, Finfinnee):",
+    "destination": "Magaalaa deemuuf barbaaddu galchi:",
+    "depart_date": "Guyyaa ka'umsa galchi (YYYY-MM-DD):",
+    "return_date": "Guyyaa deebi'aa galchi (YYYY-MM-DD) ykn 'skip' jedhi karaa tokkoof:",
+    "passengers": "Lakkoofsa imaltootaa galchi:",
+    "searching": "🔍 Balali'oota barbaadaa jira...",
+    "results_found": "Balali'oota {count} argame:",
+    "no_results": "Barbaada keetiif balali'oonni hin argamne.",
+    "select_flight": "Itti fufuuf balali'aa filadhu:",
+    "one_way": "Karaa tokko",
+    "round_trip": "Deebii-dhaqaa",
+    "price": "Gatii: {price} Birrii",
+    "duration": "Yeroo: {duration}",
+    "stops": "Dhaabbii {stops}"
+  },
+  "hotels": {
+    "search_title": "🏨 Barbaadi Hoteelaa",
+    "city": "Magaalaa galchi:",
+    "checkin": "Guyyaa seenuu galchi (YYYY-MM-DD):",
+    "checkout": "Guyyaa ba'uu galchi (YYYY-MM-DD):",
+    "rooms": "Lakkoofsa kutaalee galchi:",
+    "guests": "Lakkoofsa keessummootaa galchi:",
+    "searching": "🔍 Hoteelota barbaadaa jira...",
+    "results_found": "Hoteelota {count} argame:",
+    "no_results": "Barbaada keetiif hoteelonni hin argamne.",
+    "select_hotel": "Itti fufuuf hoteela filadhu:",
+    "per_night": "halkan tokkoof",
+    "rating": "Sadarkaa: {rating}/5"
+  },
+  "tours": {
+    "title": "🌍 Paakeejii Deemuun",
+    "categories": {
+      "ethiopia": "🇪🇹 Deemuun Itoophiyaa",
+      "international": "🌍 Deemuun Addunyaa",
+      "cultural": "🎭 Deemuun Aadaa",
+      "adventure": "🏔️ Deemuun Qajeelaa"
+    },
+    "duration": "Yeroo: guyyoota {days}",
+    "includes": "Hammate: {items}",
+    "searching": "🔍 Paakeejii deemuun fe'aa jira...",
+    "no_results": "Yeroo ammaa deemuun hin jiru."
+  },
+  "bookings": {
+    "title": "📑 Qabiyyee Koo",
+    "no_bookings": "Ammallee qabiyyee hin qabdu.",
+    "type": "Gosa: {type}",
+    "status": "Haala: {status}",
+    "reference": "Wabii: {ref}",
+    "total": "Ida'ama: {price} Birrii",
+    "view_details": "Bal'ina Ilaali",
+    "download_ticket": "📄 Tikeetii Buufadhu",
+    "cancel_booking": "❌ Qabiyyee Haquu"
+  },
+  "alerts": {
+    "title": "💰 Of Eeggannoo Gatii",
+    "create_new": "➕ Of Eeggannoo Haaraa Uumi",
+    "no_alerts": "Of eeggannoo gatii sochii qabdu hin qabdu.",
+    "alert_type": "Gosa of eeggannoo filadhu:",
+    "target_price": "Gatii xiyyeeffannoo kee Birriin galchi:",
+    "created": "✅ Of eeggannoo gatii uumame! Gatiin {price} Birrii gadi yoo bu'e beeksifama argatta.",
+    "triggered": "🔔 Of Eeggannoo Gatii! Gatiin gara {price} Birriitti bu'eera.",
+    "delete": "Of Eeggannoo Haquu",
+    "status": "Haala: {status}"
+  },
+  "payment": {
+    "title": "💳 Kaffalti",
+    "total": "Ida'ama: {price} Birrii",
+    "select_method": "Mala kaffaltii filadhu:",
+    "telebirr": "📱 TeleBirr",
+    "cbe": "🏦 CBE Birrii",
+    "processing": "Kaffalti hojjetamaa jira...",
+    "success": "✅ Kaffaltiin milkaa'e!",
+    "failed": "❌ Kaffaltiin milkaa'uu dide. Maaloo irra deebi'ii yaali.",
+    "instructions": "Kaffalti xumuraaf qajeelfama hordofi:",
+    "waiting": "⏳ Mirkaneessa kaffaltii eegaa jira..."
+  },
+  "language": {
+    "title": "🌐 Afaan Filadhu",
+    "en": "🇬🇧 English",
+    "am": "🇪🇹 አማርኛ (Amharic)",
+    "om": "🇪🇹 Afaan Oromoo",
+    "changed": "✅ Afaan milkaa'inaan jijjiirame!"
+  },
+  "help": {
+    "title": "❓ Gargaarsa & Deeggarsa",
+    "commands": "Ajajawwan Jiran:",
+    "contact": "📞 Deeggarsa Qunnamuu:\nEmail: support@tripethiopia.com\nBilbila: +251911234567",
+    "faq": "Gaaffilee Yeroo Baay'ee Gaafataman"
+  },
+  "buttons": {
+    "back": "« Duubatti",
+    "cancel": "❌ Haquu",
+    "confirm": "✅ Mirkaneessi",
+    "next": "Itti Aanuu »",
+    "main_menu": "🏠 Menu Guddaa"
+  },
+  "errors": {
+    "invalid_date": "❌ Bifa guyyaa sirrii miti. Maaloo YYYY-MM-DD fayyadami.",
+    "invalid_number": "❌ Maaloo lakkoofsa sirrii galchi.",
+    "api_error": "❌ Tajaajilli yeroodhaaf hin jiru. Maaloo booda yaali.",
+    "payment_error": "❌ Dogoggora hojjetama kaffaltii. Maaloo deeggarsa qunnamaa.",
+    "not_found": "❌ Hin argamne.",
+    "generic": "❌ Dogoggorri uumame. Maaloo irra deebi'ii yaali."
+  },
+  "notifications": {
+    "flight_reminder": "🔔 Yaadannoo Balali'aa: Balali'aan kee gara {destination} sa'aatii {hours} keessatti!",
+    "hotel_reminder": "🔔 Yaadannoo Galmee Hoteelaa: Galmeen kee {hotel} bori!",
+    "price_drop": "💰 Of Eeggannoo Bu'aa Gatii: Gatiin {type} gara {price} Birriitti bu'eera!"
+  },
+  "success": {
+    "booking_confirmed": "✅ Qabiyyee mirkanaa'e! Wabii: {ref}",
+    "ticket_sent": "📧 E-tikeetiin gara email keetti ergame.",
+    "alert_created": "✅ Of eeggannoo gatii milkaa'inaan uumame!",
+    "saved": "✅ Milkaa'inaan kuufame!"
+  }
+}
+
+

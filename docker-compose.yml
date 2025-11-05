@@ -1,0 +1,56 @@
+version: '3.8'
+
+services:
+  # PostgreSQL Database
+  postgres:
+    image: postgres:15-alpine
+    container_name: trip_ethiopia_db
+    environment:
+      POSTGRES_DB: trip_ethiopia
+      POSTGRES_USER: trip_user
+      POSTGRES_PASSWORD: ${DB_PASSWORD:-changeme}
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    ports:
+      - "5432:5432"
+    networks:
+      - trip_network
+    restart: unless-stopped
+
+  # Redis for caching and background tasks
+  redis:
+    image: redis:7-alpine
+    container_name: trip_ethiopia_redis
+    ports:
+      - "6379:6379"
+    networks:
+      - trip_network
+    restart: unless-stopped
+
+  # Trip Ethiopia Bot
+  bot:
+    build: .
+    container_name: trip_ethiopia_bot
+    depends_on:
+      - postgres
+      - redis
+    environment:
+      - DATABASE_URL=postgresql://trip_user:${DB_PASSWORD:-changeme}@postgres:5432/trip_ethiopia
+      - REDIS_URL=redis://redis:6379/0
+    env_file:
+      - .env
+    volumes:
+      - ./logs:/app/logs
+      - ./generated_tickets:/app/generated_tickets
+    networks:
+      - trip_network
+    restart: unless-stopped
+
+networks:
+  trip_network:
+    driver: bridge
+
+volumes:
+  postgres_data:
+
+

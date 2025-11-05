@@ -1,0 +1,131 @@
+{
+  "welcome": "🇪🇹 Welcome to Trip Ethiopia Bot!\n\nYour all-in-one travel assistant for flights, hotels, and tours with Ethiopian payment options.\n\nChoose a service to get started:",
+  "main_menu": {
+    "flights": "✈️ Flights",
+    "hotels": "🏨 Hotels",
+    "tours": "🌍 Tours",
+    "bookings": "📑 My Bookings",
+    "alerts": "💰 Price Alerts",
+    "language": "🌐 Language",
+    "help": "❓ Help"
+  },
+  "flights": {
+    "search_title": "✈️ Flight Search",
+    "origin": "Enter origin city (e.g., Addis Ababa):",
+    "destination": "Enter destination city:",
+    "depart_date": "Enter departure date (YYYY-MM-DD):",
+    "return_date": "Enter return date (YYYY-MM-DD) or type 'skip' for one-way:",
+    "passengers": "Enter number of passengers:",
+    "searching": "🔍 Searching for flights...",
+    "results_found": "Found {count} flights:",
+    "no_results": "No flights found for your search criteria.",
+    "select_flight": "Select a flight to continue:",
+    "one_way": "One-way",
+    "round_trip": "Round-trip",
+    "price": "Price: {price} ETB",
+    "duration": "Duration: {duration}",
+    "stops": "{stops} stop(s)"
+  },
+  "hotels": {
+    "search_title": "🏨 Hotel Search",
+    "city": "Enter city:",
+    "checkin": "Enter check-in date (YYYY-MM-DD):",
+    "checkout": "Enter check-out date (YYYY-MM-DD):",
+    "rooms": "Enter number of rooms:",
+    "guests": "Enter number of guests:",
+    "searching": "🔍 Searching for hotels...",
+    "results_found": "Found {count} hotels:",
+    "no_results": "No hotels found for your search criteria.",
+    "select_hotel": "Select a hotel to continue:",
+    "per_night": "per night",
+    "rating": "Rating: {rating}/5"
+  },
+  "tours": {
+    "title": "🌍 Tour Packages",
+    "categories": {
+      "ethiopia": "🇪🇹 Ethiopian Tours",
+      "international": "🌍 International Tours",
+      "cultural": "🎭 Cultural Tours",
+      "adventure": "🏔️ Adventure Tours"
+    },
+    "duration": "Duration: {days} days",
+    "includes": "Includes: {items}",
+    "searching": "🔍 Loading tour packages...",
+    "no_results": "No tours available at the moment."
+  },
+  "bookings": {
+    "title": "📑 My Bookings",
+    "no_bookings": "You don't have any bookings yet.",
+    "type": "Type: {type}",
+    "status": "Status: {status}",
+    "reference": "Reference: {ref}",
+    "total": "Total: {price} ETB",
+    "view_details": "View Details",
+    "download_ticket": "📄 Download Ticket",
+    "cancel_booking": "❌ Cancel Booking"
+  },
+  "alerts": {
+    "title": "💰 Price Alerts",
+    "create_new": "➕ Create New Alert",
+    "no_alerts": "You don't have any active price alerts.",
+    "alert_type": "Select alert type:",
+    "target_price": "Enter your target price in ETB:",
+    "created": "✅ Price alert created! You'll be notified when the price drops below {price} ETB.",
+    "triggered": "🔔 Price Alert! The price has dropped to {price} ETB.",
+    "delete": "Delete Alert",
+    "status": "Status: {status}"
+  },
+  "payment": {
+    "title": "💳 Payment",
+    "total": "Total Amount: {price} ETB",
+    "select_method": "Select payment method:",
+    "telebirr": "📱 TeleBirr",
+    "cbe": "🏦 CBE Birr",
+    "processing": "Processing payment...",
+    "success": "✅ Payment successful!",
+    "failed": "❌ Payment failed. Please try again.",
+    "instructions": "Follow the instructions to complete payment:",
+    "waiting": "⏳ Waiting for payment confirmation..."
+  },
+  "language": {
+    "title": "🌐 Choose Language",
+    "en": "🇬🇧 English",
+    "am": "🇪🇹 አማርኛ (Amharic)",
+    "om": "🇪🇹 Afaan Oromoo (Oromo)",
+    "changed": "✅ Language changed successfully!"
+  },
+  "help": {
+    "title": "❓ Help & Support",
+    "commands": "Available Commands:",
+    "contact": "📞 Contact Support:\nEmail: support@tripethiopia.com\nPhone: +251911234567",
+    "faq": "Frequently Asked Questions"
+  },
+  "buttons": {
+    "back": "« Back",
+    "cancel": "❌ Cancel",
+    "confirm": "✅ Confirm",
+    "next": "Next »",
+    "main_menu": "🏠 Main Menu"
+  },
+  "errors": {
+    "invalid_date": "❌ Invalid date format. Please use YYYY-MM-DD.",
+    "invalid_number": "❌ Please enter a valid number.",
+    "api_error": "❌ Service temporarily unavailable. Please try again later.",
+    "payment_error": "❌ Payment processing error. Please contact support.",
+    "not_found": "❌ Not found.",
+    "generic": "❌ An error occurred. Please try again."
+  },
+  "notifications": {
+    "flight_reminder": "🔔 Flight Reminder: Your flight to {destination} is in {hours} hours!",
+    "hotel_reminder": "🔔 Hotel Check-in Reminder: Your check-in at {hotel} is tomorrow!",
+    "price_drop": "💰 Price Drop Alert: {type} price dropped to {price} ETB!"
+  },
+  "success": {
+    "booking_confirmed": "✅ Booking confirmed! Reference: {ref}",
+    "ticket_sent": "📧 E-ticket has been sent to your email.",
+    "alert_created": "✅ Price alert created successfully!",
+    "saved": "✅ Saved successfully!"
+  }
+}
+
+
